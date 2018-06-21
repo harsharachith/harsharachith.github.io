@@ -62,7 +62,7 @@ a {
   .probootstrap-cover p {
     color: rgba(255, 255, 255, 0.7); }
   .probootstrap-cover > .container > .row {
-    padding: 7em 0; }
+    padding-top: 8%; }
 
 .btn {
   padding: 15px 25px;
