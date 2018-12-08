@@ -1,838 +1,686 @@
-<head>
-    <style>
-        /* Kaushan+Script, oregano, sail */
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
-html, body, .container {
-  height: 100%;
-  font-family: 'Kaushan Script','Sail', cursive;
-}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+      <!-- 
+    More Templates Visit ==> ProBootstrap.com
+    Free Template by ProBootstrap.com under the License Creative Commons 3.0 ==> (probootstrap.com/license)
+    IMPORTANT: You can do whatever you want with this template but you need to keep the footer link back to ProBootstrap.com
+    -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-body {
-  background: #e74;
-  overflow: hidden;
-  background-image: linear-gradient(to bottom, #190e14, #0d0d4b 30%, #c76075 80%, #e9b64b 95%);
-  background-image: radial-gradient(circle at center bottom, #e9b64b, #c76075 15%, #0d0d4b 75%, #190e14 90%);
-}
+		<title>Lanka Energy Conservation (Pvt) Ltd</title>
+		<meta name="description" content="Free Bootstrap 4 Theme by ProBootstrap.com">
+		<meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+        <link rel="icon" href="assets/images/favicon.ico.png" type="image/x-icon">
 
-div#beach,
-canvas#canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+		<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
 
-div#beach {
-  background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);
-  /* background-size: cover; */
-  background-position: bottom right;
-  background-size: 1700px;
-  background-repeat: no-repeat;
-}
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/select2.css">
+    
 
-div#video {
-  position: absolute;
-  right: 243px;
-  bottom: 200px;
-}
+    <link rel="stylesheet" href="assets/css/helpers.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-div#video iframe {
-  width: 255px;
-  height: 155px;
-}
+	</head>
+	<body>
+  
+  <!--share buttons-->
+        <div class="sticky-container">
+            <ul class="sticky">
+                <li>
+                    <img src="assets/images/facebook-circle.png" width="32" height="32">
+                    <p><a href="https://www.facebook.com/lankaenergyconservation" target="_blank">Like Us on<br>Facebook</a></p>
+                </li>
+                <li>
+                    <img src="assets/images/twitter-circle.png" width="32" height="32">
+                    <p><a href="https://twitter.com/codexworldblog" target="_blank">Follow Us on<br>Twitter</a></p>
+                </li>
+                <li>
+                    <img src="assets/images/gplus-circle.png" width="32" height="32">
+                    <p><a href="https://plus.google.com/codexworld" target="_blank">Follow Us on<br>Google+</a></p>
+                </li>
+                <li>
+                    <img src="assets/images/linkedin-circle.png" width="32" height="32">
+                    <p><a href="https://www.linkedin.com/company/lanka-energy-conservation-pvt-ltd" target="_blank">Follow Us on<br>LinkedIn</a></p>
+                </li>
+               
+            </ul>
+        </div>
+        <!--end share-->
+    <nav class="navbar navbar-expand-lg navbar-dark probootstrap_navbar" id="probootstrap-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img class="logo" src="assets/images/logo_circle.png" style="width: 81%;margin-top: -12px;" id="logoo"/></a><h3 id="mheader" style="width: 52%;color: white;">Lanka Energy Conservation</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-menu" aria-controls="probootstrap-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="ion-navicon"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="probootstrap-menu" style="margin-right: -57px;">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="city-guides.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">LEC</a></li>
+            <li class="nav-item"><a class="nav-link" href="travel.html">Retrofit</a></li>
+              <li class="nav-item"><a class="nav-link" href="travel.html">Integration</a></li>
+              <li class="nav-item"><a class="nav-link" href="travel.html">News</a></li>
+              <li class="nav-item"><a class="nav-link" href="travel.html">Career</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+    
+        <a href="javascript:" id="return-to-top" style="z-index:1000;"><svg aria-hidden="true" data-prefix="fas" data-icon="arrow-alt-circle-up" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-arrow-alt-circle-up fa-w-16 fa-2x"><path fill="currentColor" d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm292 116V256h70.9c10.7 0 16.1-13 8.5-20.5L264.5 121.2c-4.7-4.7-12.2-4.7-16.9 0l-115 114.3c-7.6 7.6-2.2 20.5 8.5 20.5H212v116c0 6.6 5.4 12 12 12h64c6.6 0 12-5.4 12-12z" class=""></path></svg></a>
+       
+    <section class="probootstrap-cover overflow-hidden relative"  style="background-image: url('assets/images/1.jpeg');" data-stellar-background-ratio="0.5"  id="section-home">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row align-items-center">
+            <div class="container"  style="height: 85%;width: 85%;">
+                <!--<h2>Carousel Example</h2>-->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="box-shadow: 0px -1px 30px 5px rgba(29,186,20,0.87);">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                        <li data-target="#myCarousel" data-slide-to="8"></li>
+                       
+                    </ol>
 
-#people {
-  position: absolute;
-  bottom: 65px;
-  left: 40px;
-  width: 140px;
-}
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="./assets/images/s1.jpg" alt="Los Angeles" style="width:100%;">
+                        </div>
 
-#car {
-  position: absolute;
-  bottom: 46px;
-  left: 180px;
-  width: 230px;
-}
+                        <div class="item">
+                            <img src="./assets/images/s2.jpg" alt="Chicago" style="width:100%;">
+                        </div>
 
-div#sea {
-  background-color: blue;
-  height: 85px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-image: radial-gradient(circle at center top, #23485a, #0d0246);
-}
+                        <div class="item">
+                            <img src="./assets/images/s3.jpg" alt="New york" style="width:100%;">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/s4.jpg" alt="New york" style="width:100%;">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/s5.jpg" alt="New york" style="width:100%;">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/s6.jpg" alt="New york" style="width:100%;">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/s7.jpg" alt="New york" style="width:100%;">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/s8.jpg" alt="New york" style="width:100%;">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/s9.jpg" alt="New york" style="width:100%;">
+                        </div>
+                    </div>
 
-.merrywrap {
-  position: absolute;
-  right: 0px;
-  left: 0px;
-  bottom: 0px;
-  top: 0px;
-  background-color: #d44;
-  transition: background-color .5s ease;
-}
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
 
-.giftbox {
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  left: 50%;
-  margin-left: -150px;
-  bottom: 40px;
-  z-index: 10;
-}
-.giftbox > div {
-  background: #34495e;
-  position: absolute;
-}
-.giftbox > div:after, .giftbox > div:before {
-  position: absolute;
-  content: "";
-  top: 0;
-}
-.giftbox:after {
-  position: absolute;
-  color: #fff;
-  width: 100%;
-  content: "Click Me!";
-  left: 0;
-  bottom: 0;
-  font-size: 24px;
-  text-align: center;
-  transform: rotate(-20deg);
-  transform-origin: 0 0;
-}
-.giftbox .cover {
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 25%;
-  z-index: 2;
-}
-.giftbox .cover:before {
-  position: absolute;
-  height: 100%;
-  left: 50%;
-  width: 50px;
-  transform: translateX(-50%);
-  background: #fdc56d;
-}
-.giftbox .cover > div {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 50%;
-  top: -50px;
-  transform: translateX(-50%);
-}
-.giftbox .cover > div:before, .giftbox .cover > div:after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  content: "";
-  box-shadow: inset 0 0 0 15px #fdc56d;
-  border-radius: 30px;
-  transform-origin: 50% 100%;
-}
-.giftbox .cover > div:before {
-  transform: translateX(-45%) skewY(40deg);
-}
-.giftbox .cover > div:after {
-  transform: translateX(45%) skewY(-40deg);
-}
-.giftbox .box {
-  right: 5%;
-  left: 5%;
-  height: 80%;
-  bottom: 0;
-}
-.giftbox .box:before {
-  width: 50px;
-  height: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #fdc56d;
-}
-.giftbox .box:after {
-  width: 100%;
-  height: 30px;
-  background: rgba(0, 0, 0, 0.2);
-}
+        </div>
+      </div>
+    
+    </section>
+    <!-- END section -->
+    
 
-.icons {
-      position: absolute;
-    left: 58px;
-    height: auto;
-    transform: translateY(10px) rotate(-20deg);
-    top: 79px;
-}
-.icons .row {
-  width: 100%;
-  text-align: center;
-}
-.icons .row span {
-  color: #e5e5e5;
-    text-shadow: 4px 4px 0 rgba(96, 125, 139, 0.4);
-    font-size: 52px;
-    display: inline-block;
-    opacity: 0;
-    transition: transform 0.5s ease-in, opacity 0.7s;
-    /* margin-left: 25px; */
-}
+    <section class="probootstrap_section" id="section-feature-testimonial">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-12 text-center mb-5 probootstrap-animate">
+            <h2 class="display-4 border-bottom probootstrap-section-heading">Our Vision & Mission</h2>
+            <blockquote class="">
+              <p class="lead mb-4"><em>Leading the way in diversified, innovative technology and providing energy solutions to complex infrastructure while being responsible for environment and sustainability</em></p>
+              <p class="probootstrap-author">
+                <a href="https://probootstrap.com/" target="_blank">
+                  <img src="assets/images/person_1.jpg" alt="Free Template by ProBootstrap.com" class="rounded-circle">
+                  <span class="probootstrap-name">James Smith</span>
+                  <span class="probootstrap-title">Chief Executive Officer</span>
+                </a>
+              </p>
+            </blockquote>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- END section -->
+        <section class="probootstrap_section" style="padding: 0;">
+            <div class="container">
+                <div class="row text-center mb-5 probootstrap-animate">
+                    <div class="col-md-12">
+                        <h2 class="display-4 border-bottom probootstrap-section-heading">Our Services</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-.step-1 .giftbox {
-  animation: wobble 0.5s linear infinite forwards;
-}
-.step-1 .cover {
-  animation: wobble 0.5s linear infinite  0.1s forwards;
-}
-.step-1 .icons .row span {
-  opacity: 1;
-}
+        <section class="probootstrap-section-half d-md-flex" id="section-about">
+            <div class="probootstrap-image probootstrap-animate" data-animate-effect="fadeIn" style="background-image: url(assets/images/pg.jpg)"></div>
+            <div class="probootstrap-text">
+                <div class="probootstrap-inner probootstrap-animate" data-animate-effect="fadeInRight">
+                    <h2 class="heading mb-4">(BMS) Building Energy Management Systems</h2>
+                    <p>Our Platform provides detailed analytic’s, energy usage and reporting capabilities for any type of building with robust smartphone access.</p>
+                    <!--<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>-->
+                    <p><a href="#" class="btn btn-primary">Read More</a></p>
+                </div>
+            </div>
+        </section>
 
-.step-2 .giftbox:after {
-  opacity: 0;
-}
+        <section class="probootstrap-section-half d-md-flex">
+            <div class="probootstrap-image order-2 probootstrap-animate" data-animate-effect="fadeIn" style="background-image: url(assets/images/hvac.jpg)"></div>
+            <div class="probootstrap-text order-1">
+                <div class="probootstrap-inner probootstrap-animate" data-animate-effect="fadeInLeft">
+                    <h2 class="heading mb-4">HVAC Solutions</h2>
+                    <p>Bringing the extraordinary Performance, Reliability and Energy Savings of Magnetic Bearing Chiller Technology to customers. </p>
+                    <!--<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>-->
+                    <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="probootstrap-section-half d-md-flex" id="section-about">
+            <div class="probootstrap-image probootstrap-animate" data-animate-effect="fadeIn" style="background-image: url(assets/images/ps.jpg)"></div>
+            <div class="probootstrap-text">
+                <div class="probootstrap-inner probootstrap-animate" data-animate-effect="fadeInRight">
+                    <h2 class="heading mb-4">Power Generation</h2>
+                    <p>Providing the next-generation, range of oil-free turbo expanders used for converting low grade heat waste into electrical power.</p>
+                    <!--<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>-->
+                    <p><a href="#" class="btn btn-primary">Read More</a></p>
+                </div>
+            </div>
+        </section>
 
-.step-3 .giftbox,
-.step-4 .giftbox {
-  opacity: 0;
-  z-index: 1;
-}
-.step-3 .giftbox:after,
-.step-4 .giftbox:after {
-  opacity: 0;
-}
 
-.step-2 .giftbox .cover {
-  animation: flyUp 0.4s ease-in forwards;
-}
-.step-2 .giftbox .box {
-  animation: flyDown 0.2s ease-in 0.05s forwards;
-}
+    <!--<section class="probootstrap_section" id="section-city-guides">
+      <div class="container">
+        <div class="row text-center mb-5 probootstrap-animate">
+          <div class="col-md-12">
+            <h2 class="display-4 border-bottom probootstrap-section-heading">Top Places Around The World</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 probootstrap-animate mb-3">
+            <a href="#" class="probootstrap-thumbnail">
+              <img src="assets/images/img_1.jpg" alt="Free Template by ProBootstrap.com" class="img-fluid">
+              <div class="probootstrap-text">
+                <h3>Buena</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 probootstrap-animate mb-3">
+            <a href="#" class="probootstrap-thumbnail">
+              <img src="assets/images/img_2.jpg" alt="Free Template by ProBootstrap.com" class="img-fluid">
+              <h3>Road</h3>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 probootstrap-animate mb-3">
+            <a href="#" class="probootstrap-thumbnail">
+              <img src="assets/images/img_3.jpg" alt="Free Template by ProBootstrap.com" class="img-fluid">
+              <h3>Australia</h3>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 probootstrap-animate mb-3">
+            <a href="#" class="probootstrap-thumbnail">
+              <img src="assets/images/img_4.jpg" alt="Free Template by ProBootstrap.com" class="img-fluid">
+              <h3>Japan</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    
+  
 
-@keyframes wobble {
-  25% {
-    transform: rotate(4deg);
-  }
-  75% {
-    transform: rotate(-2deg);
-  }
-}
-@keyframes flyUp {
-  75% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-1000px) rotate(20deg);
-    opacity: 0;
-  }
-}
-@keyframes flyDown {
-  75% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-}
-.step-1 .icons .row span {
-  opacity: 0;
-}
+    
+    <!-- END section -->
 
-.step-1 .icons .row span:first-child {
-  transform: translateY(700%) translateX(600%);
-}
-
-.step-1 .icons .row span:nth-child(2) {
-  transform: translateY(700%) translateX(500%);
-}
-
-.step-1 .icons .row span:nth-child(3) {
-  transform: translateY(700%) translateX(400%);
-}
-
-.step-1 .icons .row span:nth-child(4) {
-  transform: translateY(700%) translateX(300%);
-}
-
-.step-1 .icons .row span:nth-child(5) {
-  transform: translateY(700%) translateX(200%);
-}
-
-.step-1 .icons .row span:nth-child(6) {
-  transform: translateY(700%) translateX(100%);
-}
-
-.step-1 .icons .row span:nth-child(7) {
-  transform: translateY(700%) translateX(0);
-}
-
-.step-1 .icons .row span:nth-child(8) {
-  transform: translateY(700%) translateX(-100%);
-}
-
-.step-1 .icons .row span:nth-child(9) {
-  transform: translateY(700%) translateX(-200%);
-}
-
-.step-1 .icons .row span:nth-child(10) {
-  transform: translateY(700%) translateX(-300%);
-}
-
-.step-1 .icons .row span:nth-child(11) {
-  transform: translateY(700%) translateX(-400%);
-}
-
-.step-1 .icons .row span:nth-child(12) {
-  transform: translateY(700%) translateX(-500%);
-}
-
-.step-1 .icons .row span:nth-child(13) {
-  transform: translateY(700%) translateX(-600%);
-}
-
-.step-2 .icons .row span:nth-child(2) {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-
-.step-2 .icons .row span:nth-child(3) {
-  -webkit-transition-delay: 0.15s;
-  transition-delay: 0.15s;
-}
-
-.step-2 .icons .row span:nth-child(4) {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-
-.step-2 .icons .row span:nth-child(5) {
-  -webkit-transition-delay: 0.25s;
-  transition-delay: 0.25s;
-}
-
-.step-2 .icons .row span:nth-child(6) {
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
-}
-
-.step-2 .icons .row span:nth-child(7) {
-  -webkit-transition-delay: 0.35s;
-  transition-delay: 0.35s;
-}
-
-.step-2 .icons .row span:nth-child(8) {
-  -webkit-transition-delay: 0.4s;
-  transition-delay: 0.4s;
-}
-
-.step-2 .icons .row span:nth-child(9) {
-  -webkit-transition-delay: 0.45s;
-  transition-delay: 0.45s;
-}
-
-.step-2 .icons .row span:nth-child(10) {
-  -webkit-transition-delay: 0.5s;
-  transition-delay: 0.5s;
-}
-
-.step-2 .icons .row span:nth-child(11) {
-  -webkit-transition-delay: 0.55s;
-  transition-delay: 0.55s;
-}
-
-.step-2 .icons .row span:nth-child(12) {
-  -webkit-transition-delay: 0.6s;
-  transition-delay: 0.6s;
-}
-
-.step-2 .icons .row span:nth-child(13) {
-  -webkit-transition-delay: 0.65s;
-  transition-delay: 0.65s;
-}
-
-.step-2 .icons span, .step-3 .icons span, .step-4 .icons span {
-  opacity: 1;
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 0.91);
-}
-
-.step-4 .icons .row span, .step-3 .icons .row span {
-  /*animation: wobble 0.6s linear infinite forwards;*/
-  color: #c6e2ff;
-  animation: neon .08s ease-in-out infinite alternate;
-}
-
-.step-4 .icons .row span:nth-child(even), .step-3 .icons .row span:nth-child(even) {
-  animation-duration: 0.7s;
-}
-
-@keyframes neon {
-  from {
-    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52), 0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78), 0 0 54px rgba(30, 132, 242, 0.92);
-  }
-  to {
-    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
-  }
-}
-.moon {
-  position: absolute;
-  top: 10%;
-  right: 200px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: #ddd;
-  box-shadow: inset 20px -10px 0 0 #b9b9b9;
-}
-
-.moon .crater1 {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: #bbb;
-  box-shadow: inset -3px 1.5px 0 0 #aaa;
-  top: 20px;
-  right: 20px;
-}
-
-.moon .crater2 {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #bbb;
-  box-shadow: inset -1px 0.5px 0 0 #aaa;
-  top: 45px;
-  right: 50px;
-}
-
-.moon .crater3 {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #bbb;
-  box-shadow: inset -1.5px 0.75px 0 0 #aaa;
-  top: 60px;
-  right: 25px;
-}
-
-@media (min-width: 1000px) {
-  .icons {
-    left: 30px;
-  }
-
-  .icons .row span {
-    font-size: 56px;
-  }
-
-  #people {
-    left: 80px;
-    bottom: 70px;
-    width: 160px;
-  }
-
-  div#beach {
-    background-size: 2000px;
-  }
-
-  div#video {
-    right: 290px;
-    bottom: 235px;
-  }
-
-  div#video iframe {
-    width: 295px;
-    height: 185px;
-  }
-
-  .moon {
-    right: 230px;
-  }
-}
-
-    </style>
    
-</head>
-<div class='moon'>
-  <div class='crater1'></div>
-  <div class='crater2'></div>
-  <div class='crater3'></div>
-</div>
-<canvas id="canvas"></canvas>
-<div id="sea"></div>
-<div id="beach"></div>
-<img src="https://dl.dropbox.com/s/2k0mtrxc2dqurmh/jumping.png" alt="jumping-people" id="people" />
-<!--<img src="https://dl.dropbox.com/s/zoftkmdxyyqr8ce/belair.png" alt="jumping-people" id="car" />-->
+    <!-- END section -->
 
-<div id="merrywrap" class="merrywrap">
-	<h>Please Rotate the phone horizontly</h>
-	<iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/38876415&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-	<div class="giftbox">
-    <div class="cover">
-      <div></div>
-    </div>
-    <div class="box"></div>
-  </div>
-  <div class="icons">
-    <div class="row"> 
-      <span>H</span>
-      <span>A</span>
-      <span>P</span>
-      <span>P</span>
-      <span>Y</span>
-    </div>
-    <div class="row"> 
-      <span>B</span>
-      <span>'</span>
-      <span>D</span>
-      <span>A</span>
-      <span>Y</span>
-      <span></span>
-      
-    </div>
-    <div class="row"> 
-      <span>P</span>
-      <span>A</span>
-      <span>M</span>
-      <span>O</span>
-      <!-- <span>t</span>
-      <span>h</span>
-      <span>e</span>
-      <span>a</span>
-      <span>r</span>
-      <span>t</span> -->
-    </div>
-  </div>
-</div>
+    <!--<section class="probootstrap_section bg-light">
+      <div class="container">
+        <div class="row text-center mb-5 probootstrap-animate">
+          <div class="col-md-12">
+            <h2 class="display-4 border-bottom probootstrap-section-heading">More Services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="media probootstrap-media d-flex align-items-stretch mb-4 probootstrap-animate">
+              <div class="probootstrap-media-image" style="background-image: url(assets/images/img_1.jpg)">
+              </div>
+              <div class="media-body">
+                <h5 class="mb-3">01. Service Title Here</h5>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              </div>
+            </div>
+            <div class="media probootstrap-media d-flex align-items-stretch mb-4 probootstrap-animate">
+              <div class="probootstrap-media-image" style="background-image: url(assets/images/img_2.jpg)">
+              </div>
+              <div class="media-body">
+                <h5 class="mb-3">02. Service Title Here</h5>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            
+            <div class="media probootstrap-media d-flex align-items-stretch mb-4 probootstrap-animate">
+              <div class="probootstrap-media-image" style="background-image: url(assets/images/img_4.jpg)">
+              </div>
+              <div class="media-body">
+                <h5 class="mb-3">03. Service Title Here</h5>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              </div>
+            </div>
+            <div class="media probootstrap-media d-flex align-items-stretch mb-4 probootstrap-animate">
+              <div class="probootstrap-media-image" style="background-image: url(assets/images/img_5.jpg)">
+              </div>
+              <div class="media-body">
+                <h5 class="mb-3">04. Service Title Here</h5>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!-- END section -->
+
+    <section class="probootstrap_section" id="section-feature-testimonial" style="background-image:url('assets/images/bgg.jpg');background-size:   contain;;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center right;              /* optional, center the image */">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-12 text-center mb-5 probootstrap-animate">
+            <h2 class="display-4 border-bottom probootstrap-section-heading">GOAL</h2>
+            <blockquote class="">
+              <p class="lead mb-4"><em>By 2025 make 10 million squarefeet of building space 35% more efficient</em></p>
+              <!--<p class="probootstrap-author">
+                <a href="https://probootstrap.com/" target="_blank">
+                  <img src="assets/images/person_1.jpg" alt="Free Template by ProBootstrap.com" class="rounded-circle">
+                  <span class="probootstrap-name">James Smith</span>
+                  <span class="probootstrap-title">Chief Executive Officer</span>
+                </a>
+              </p>-->
+            </blockquote>
+
+          </div>
+        </div>
+        
+      </div>
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-12 text-center mb-5 probootstrap-animate">
+                    <h2 class="display-4 border-bottom probootstrap-section-heading">OUR CONTRIBUTION TO DATE</h2>
+                    <blockquote class="">
+                        <p class="lead mb-4"><em>Saved KWh 10 million
+7 million Kg of green house gas</em></p>
+                        <!--<p class="probootstrap-author">
+                      <a href="https://probootstrap.com/" target="_blank">
+                        <img src="assets/images/person_1.jpg" alt="Free Template by ProBootstrap.com" class="rounded-circle">
+                        <span class="probootstrap-name">James Smith</span>
+                        <span class="probootstrap-title">Chief Executive Officer</span>
+                      </a>
+                    </p>-->
+                    </blockquote>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- END section -->
+        <section class="probootstrap_section">
+            <div class="container">
+                <div class="row text-center mb-5 probootstrap-animate">
+                    <div class="col-md-12">
+                        <h2 class="display-4 border-bottom probootstrap-section-heading">Our Top Clients</h2>
+                    </div>
+                </div>
+
+
+              
+                <div id="wrapper">
+                    <div id="image">
+                        <div class="image i1"><img src="assets/images/Fonterra_Logo-and-slogan.png" style="max-width: 80%;max-height: 100%;margin-bottom: 90%;padding: 45px;"></div>
+                        <div class="image i2"><img src="assets/images/shan.png" style="max-width: 80%;max-height: 100%;margin-bottom: 90%;padding: 45px;"></div>
+                        <div class="image i3"><img src="assets/images/Cinnamon-Grand-Logo.png" style="max-width: 80%;max-height: 100%;margin-bottom: 90%;padding: 45px;"></div>
+                        <div class="image i4"><img src="assets/images/John_Keells_Holdings_logo.svg.png" style="max-width: 80%;max-height: 100%;margin-bottom: 90%;padding: 45px;"></div>
+                        <div class="image i5"><img src="assets/images/brandix.png" style="max-width: 80%;max-height: 100%;margin-bottom: 90%;padding: 45px;"></div>
+                        <div class="image i6"><img src="assets/images/Mas_Holdings_Logo.png" style="max-width: 80%;max-height: 100%;margin-bottom: 90%;padding: 45px;"></div>
+                        <div class="image i7"><img src="assets/images/beverage-can-manufacturer-sri-lanka-img-1.png" style="max-width: 80%;max-height: 100%;margin-bottom: 90%;padding: 45px;"></div>
+                        <div class="image i8"><img src="assets/images/Seylan_Bank_logo.png" style="max-width: 80%;max-height: 100%;margin-bottom: 90%;padding: 45px;"> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--<section class="probootstrap_section bg-light">
+      <div class="container">
+        <div class="row text-center mb-5 probootstrap-animate">
+          <div class="col-md-12">
+            <h2 class="display-4 border-bottom probootstrap-section-heading">News</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="media probootstrap-media d-flex align-items-stretch mb-4 probootstrap-animate">
+              <div class="probootstrap-media-image" style="background-image: url(assets/images/img_1.jpg)">
+              </div>
+              <div class="media-body">
+                <span class="text-uppercase">January 1st 2018</span>
+                <h5 class="mb-3">Travel To United States Without Visa</h5>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                <p><a href="#">Read More</a></p>
+              </div>
+            </div>
+            <div class="media probootstrap-media d-flex align-items-stretch mb-4 probootstrap-animate">
+              <div class="probootstrap-media-image" style="background-image: url(assets/images/img_2.jpg)">
+              </div>
+              <div class="media-body">
+                <span class="text-uppercase">January 1st 2018</span>
+                <h5 class="mb-3">Travel To United States Without Visa</h5>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                <p><a href="#">Read More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            
+            <div class="media probootstrap-media d-flex align-items-stretch mb-4 probootstrap-animate">
+              <div class="probootstrap-media-image" style="background-image: url(assets/images/img_4.jpg)">
+              </div>
+              <div class="media-body">
+                <span class="text-uppercase">January 1st 2018</span>
+                <h5 class="mb-3">Travel To United States Without Visa</h5>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                <p><a href="#">Read More</a></p>
+              </div>
+            </div>
+            <div class="media probootstrap-media d-flex align-items-stretch mb-4 probootstrap-animate">
+              <div class="probootstrap-media-image" style="background-image: url(assets/images/img_5.jpg)">
+              </div>
+              <div class="media-body">
+                <span class="text-uppercase">January 1st 2018</span>
+                <h5 class="mb-3">Travel To United States Without Visa</h5>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                <p><a href="#">Read More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!-- END section -->
+
+    <!--<section class="probootstrap_section">
+      <div class="container">
+        <div class="row text-center mb-5 probootstrap-animate">
+          <div class="col-md-12">
+            <h2 class="display-4 border-bottom probootstrap-section-heading">Travel With Us</h2>
+          </div>
+        </div>
+        
+        <div class="row probootstrap-animate">
+          <div class="col-md-12">
+            <div class="owl-carousel js-owl-carousel-2">
+              <div>
+                <div class="media probootstrap-media d-block align-items-stretch mb-4 probootstrap-animate">
+                  <img src="assets/images/sq_img_2.jpg" alt="Free Template by ProBootstrap" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">02. Service Title Here</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                  </div>
+                </div>
+              </div>
+              <!-- END slide item -->
+
+              <!--<div>
+                <div class="media probootstrap-media d-block align-items-stretch mb-4 probootstrap-animate">
+                  <img src="assets/images/sq_img_1.jpg" alt="Free Template by ProBootstrap" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">02. Service Title Here</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                  </div>
+                </div>
+              </div>-->
+              <!-- END slide item -->
+
+              <!--<div>
+                <div class="media probootstrap-media d-block align-items-stretch mb-4 probootstrap-animate">
+                  <img src="assets/images/sq_img_3.jpg" alt="Free Template by ProBootstrap" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">02. Service Title Here</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                  </div>
+                </div>
+              </div>-->
+              <!-- END slide item -->
+
+              <!--<div>
+                <div class="media probootstrap-media d-block align-items-stretch mb-4 probootstrap-animate">
+                  <img src="assets/images/sq_img_4.jpg" alt="Free Template by ProBootstrap" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">02. Service Title Here</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                  </div>
+                </div>
+              </div>-->
+              <!-- END slide item -->
+
+              <!--<div>
+                <div class="media probootstrap-media d-block align-items-stretch mb-4 probootstrap-animate">
+                  <img src="assets/images/sq_img_5.jpg" alt="Free Template by ProBootstrap" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">02. Service Title Here</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                  </div>
+                </div>
+              </div>-->
+              <!-- END slide item -->
+
+
+              <!--<div>
+                <div class="media probootstrap-media d-block align-items-stretch mb-4 probootstrap-animate">
+                  <img src="assets/images/sq_img_2.jpg" alt="Free Template by ProBootstrap" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">02. Service Title Here</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                  </div>
+                </div>
+              </div>-->
+              <!-- END slide item -->
+
+              <!--<div>
+                <div class="media probootstrap-media d-block align-items-stretch mb-4 probootstrap-animate">
+                  <img src="assets/images/sq_img_1.jpg" alt="Free Template by ProBootstrap" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">02. Service Title Here</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                  </div>
+                </div>
+              </div>-->
+              <!-- END slide item -->
+
+              <!--<div>
+                <div class="media probootstrap-media d-block align-items-stretch mb-4 probootstrap-animate">
+                  <img src="assets/images/sq_img_3.jpg" alt="Free Template by ProBootstrap" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">02. Service Title Here</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                  </div>
+                </div>
+              </div>-->
+              <!-- END slide item -->
+
+              <!--<div>
+                <div class="media probootstrap-media d-block align-items-stretch mb-4 probootstrap-animate">
+                  <img src="assets/images/sq_img_4.jpg" alt="Free Template by ProBootstrap" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">02. Service Title Here</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                  </div>
+                </div>
+              </div>-->
+              <!-- END slide item -->
+
+              <!--<div>
+                <div class="media probootstrap-media d-block align-items-stretch mb-4 probootstrap-animate">
+                  <img src="assets/images/sq_img_5.jpg" alt="Free Template by ProBootstrap" class="img-fluid">
+                  <div class="media-body">
+                    <h5 class="mb-3">02. Service Title Here</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                  </div>
+                </div>
+              </div>-->
+              <!-- END slide item -->
+              
+            <!--</div>
+          </div>
+        </div>
+      </div>
+    </section>-->-->
+    <!-- END section -->
+
+    
+        <footer>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-2 col-md-6">
+                        <h3 style="color:#00CA4C;">Site Map</h3>
+                        <h3 class="probootstrap_font-18 mb-3" style="color:white;">Quick Links</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="https://free-template.co" target="_blank">Home</a></li>
+                            <li><a href="https://free-template.co" target="_blank">About</a></li>
+                            <li><a href="https://free-template.co" target="_blank">Services</a></li>
+                            <li><a href="https://free-template.co" target="_blank">Contact</a></li>
+                        </ul>
+                        <ul class="list-unstyled socila-list">
+                            
+
+                                
+
+                                    <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social-fb" id="social"></i></a>
+                                    <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-2x social-tw" id="social"></i></a>
+                                    <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-2x social-gp" id="social"></i></a>
+                                    <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-2x social-em" id="social"></i></a>
+
+                               
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <h3 style="color:#00CA4C;">Regional Office</h3>
+                        <ul class="list-unstyled clear-margins">
+                            <!-- widgets -->
+
+                            <li class="widget-container widget_recent_news">
+                                <!-- widgets list -->
+
+                                
+
+                                <div class="footerp">
+
+                                  
+                                    <p><b>Email id:</b> <a href="mailto:info@webenlance.com">info@webenlance.com</a></p>
+                                    <div id="regional_office">23/1, Jaya Road, Colombo 04,<br /> Sri Lanka. <br>T : +94 11 2583157&nbsp;<br />  F : +94 11 258 3158<br>   M : +94 72 724 2831, <br>E : rukshan@perthecopower.com <br>W : www.perthecopower.com</div>
+                                   
+                                </div>
+
+                                
+                            </li>
+                        </ul>
+
+                        
+
+                    </div>
+                    <div class="col-lg-3 col-md-6"><h3 style="color:#00CA4C;">Head Office</h3>
+<ul class="list-unstyled clear-margins">
+    <!-- widgets -->
+
+    <li class="widget-container widget_recent_news">
+        <!-- widgets list -->
 
 
 
-<div id="video">
-<!--<iframe width="255" height="155" src="https://www.youtube.com/embed/KDxJlW6cxRk?controls=0&loop=1" frameborder="0" allowfullscreen></iframe>-->
-</div>
+        <div class="footerp">
 
 
- <script>
-         /*
-              Everybody say Happy Birthday! This gift is a compound of various pens plus some other things I added
-              - gift 
-              https://codepen.io/ElaineXu/pen/EWvGWX
-              - neon 
-              https://codepen.io/markheggan/pen/LjrVYN
-              - fireworks 
-              https://codepen.io/chuongdang/pen/yzpDG
-              - moon 
-              https://codepen.io/agelber/pen/sjIKp
-              */
-window.requestAnimFrame = function () {
-	return window.requestAnimationFrame ||
-	window.webkitRequestAnimationFrame ||
-	window.mozRequestAnimationFrame ||
-	function (callback) {
-		window.setTimeout(callback, 1000 / 60);
-	};
-}();
+            <p><b>Email id:</b> <a href="mailto:info@webenlance.com">info@webenlance.com</a></p>
+            <div id="head_office">Perth Eco Power (Pty) Ltd.<br> 54, Osborne Place, Stirling WA 6021,<br> Western Australia. <br>T : +618 9349 1256 <br>M : +61 400 911 079</div>
+           
+        </div>
 
-// now we will setup our basic variables for the demo
-var canvas = document.getElementById('canvas'),
-ctx = canvas.getContext('2d'),
-// full screen dimensions
-cw = window.innerWidth,
-ch = window.innerHeight,
-// firework collection
-fireworks = [],
-// particle collection
-particles = [],
-// starting hue
-hue = 120,
-// when launching fireworks with a click, too many get launched at once without a limiter, one launch per 5 loop ticks
-limiterTotal = 5,
-limiterTick = 0,
-// this will time the auto launches of fireworks, one launch per 80 loop ticks
-timerTotal = 80,
-timerTick = 0,
-mousedown = false,
-// mouse x coordinate,
-mx,
-// mouse y coordinate
-my;
 
-// set canvas dimensions
-canvas.width = cw;
-canvas.height = ch;
+    </li>
+</ul></div>
 
-// now we are going to setup our function placeholders for the entire demo
+                        <div class="col-lg-4">
+                            <h3 style="color:#00CA4C;">Our Work</h3>
+                            <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
+                            <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
+                            <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
+                            <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
+                        </div>
 
-// get a random number within a range
-function random(min, max) {
-	return Math.random() * (max - min) + min;
-}
+                    </div>
+            </div>
+            <div class="copyright text-center">
+                Copyright © 2018 Perthecopower (Pty) Ltd. All Rights Reserved
 
-// calculate the distance between two points
-function calculateDistance(p1x, p1y, p2x, p2y) {
-	var xDistance = p1x - p2x,
-	yDistance = p1y - p2y;
-	return Math.sqrt(Math.pow(xDistance, 2) + Math.pow(yDistance, 2));
-}
+                <p>
+                    Powered by HSoft 2018
+                </p>
+            </div>
+            
+        </footer>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
 
-// create firework
-function Firework(sx, sy, tx, ty) {
-	// actual coordinates
-	this.x = sx;
-	this.y = sy;
-	// starting coordinates
-	this.sx = sx;
-	this.sy = sy;
-	// target coordinates
-	this.tx = tx;
-	this.ty = ty;
-	// distance from starting point to target
-	this.distanceToTarget = calculateDistance(sx, sy, tx, ty);
-	this.distanceTraveled = 0;
-	// track the past coordinates of each firework to create a trail effect, increase the coordinate count to create more prominent trails
-	this.coordinates = [];
-	this.coordinateCount = 3;
-	// populate initial coordinate collection with the current coordinates
-	while (this.coordinateCount--) {
-		this.coordinates.push([this.x, this.y]);
-	}
-	this.angle = Math.atan2(ty - sy, tx - sx);
-	this.speed = 2;
-	this.acceleration = 1.05;
-	this.brightness = random(50, 70);
-	// circle target indicator radius
-	this.targetRadius = 1;
-}
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
 
-// update firework
-Firework.prototype.update = function (index) {
-	// remove last item in coordinates array
-	this.coordinates.pop();
-	// add current coordinates to the start of the array
-	this.coordinates.unshift([this.x, this.y]);
+    <script src="assets/js/select2.min.js"></script>
 
-	// cycle the circle target indicator radius
-	if (this.targetRadius < 8) {
-		this.targetRadius += 0.3;
-	} else {
-		this.targetRadius = 1;
-	}
-
-	// speed up the firework
-	this.speed *= this.acceleration;
-
-	// get the current velocities based on angle and speed
-	var vx = Math.cos(this.angle) * this.speed,
-	vy = Math.sin(this.angle) * this.speed;
-	// how far will the firework have traveled with velocities applied?
-	this.distanceTraveled = calculateDistance(this.sx, this.sy, this.x + vx, this.y + vy);
-
-	// if the distance traveled, including velocities, is greater than the initial distance to the target, then the target has been reached
-	if (this.distanceTraveled >= this.distanceToTarget) {
-		createParticles(this.tx, this.ty);
-		// remove the firework, use the index passed into the update function to determine which to remove
-		fireworks.splice(index, 1);
-	} else {
-		// target not reached, keep traveling
-		this.x += vx;
-		this.y += vy;
-	}
-};
-
-// draw firework
-Firework.prototype.draw = function () {
-	ctx.beginPath();
-	// move to the last tracked coordinate in the set, then draw a line to the current x and y
-	ctx.moveTo(this.coordinates[this.coordinates.length - 1][0], this.coordinates[this.coordinates.length - 1][1]);
-	ctx.lineTo(this.x, this.y);
-	ctx.strokeStyle = 'hsl(' + hue + ', 100%, ' + this.brightness + '%)';
-	ctx.stroke();
-
-	ctx.beginPath();
-	// draw the target for this firework with a pulsing circle
-	ctx.arc(this.tx, this.ty, this.targetRadius, 0, Math.PI * 2);
-	ctx.stroke();
-};
-
-// create particle
-function Particle(x, y) {
-	this.x = x;
-	this.y = y;
-	// track the past coordinates of each particle to create a trail effect, increase the coordinate count to create more prominent trails
-	this.coordinates = [];
-	this.coordinateCount = 5;
-	while (this.coordinateCount--) {
-		this.coordinates.push([this.x, this.y]);
-	}
-	// set a random angle in all possible directions, in radians
-	this.angle = random(0, Math.PI * 2);
-	this.speed = random(1, 10);
-	// friction will slow the particle down
-	this.friction = 0.95;
-	// gravity will be applied and pull the particle down
-	this.gravity = 1;
-	// set the hue to a random number +-20 of the overall hue variable
-	this.hue = random(hue - 20, hue + 20);
-	this.brightness = random(50, 80);
-	this.alpha = 1;
-	// set how fast the particle fades out
-	this.decay = random(0.015, 0.03);
-}
-
-// update particle
-Particle.prototype.update = function (index) {
-	// remove last item in coordinates array
-	this.coordinates.pop();
-	// add current coordinates to the start of the array
-	this.coordinates.unshift([this.x, this.y]);
-	// slow down the particle
-	this.speed *= this.friction;
-	// apply velocity
-	this.x += Math.cos(this.angle) * this.speed;
-	this.y += Math.sin(this.angle) * this.speed + this.gravity;
-	// fade out the particle
-	this.alpha -= this.decay;
-
-	// remove the particle once the alpha is low enough, based on the passed in index
-	if (this.alpha <= this.decay) {
-		particles.splice(index, 1);
-	}
-};
-
-// draw particle
-Particle.prototype.draw = function () {
-	ctx.beginPath();
-	// move to the last tracked coordinates in the set, then draw a line to the current x and y
-	ctx.moveTo(this.coordinates[this.coordinates.length - 1][0], this.coordinates[this.coordinates.length - 1][1]);
-	ctx.lineTo(this.x, this.y);
-	ctx.strokeStyle = 'hsla(' + this.hue + ', 100%, ' + this.brightness + '%, ' + this.alpha + ')';
-	ctx.stroke();
-};
-
-// create particle group/explosion
-function createParticles(x, y) {
-	// increase the particle count for a bigger explosion, beware of the canvas performance hit with the increased particles though
-	var particleCount = 30;
-	while (particleCount--) {
-		particles.push(new Particle(x, y));
-	}
-}
-
-// main demo loop
-function loop() {
-	// this function will run endlessly with requestAnimationFrame
-	requestAnimFrame(loop);
-
-	// increase the hue to get different colored fireworks over time
-	hue += 0.5;
-
-	// normally, clearRect() would be used to clear the canvas
-	// we want to create a trailing effect though
-	// setting the composite operation to destination-out will allow us to clear the canvas at a specific opacity, rather than wiping it entirely
-	ctx.globalCompositeOperation = 'destination-out';
-	// decrease the alpha property to create more prominent trails
-	ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
-	ctx.fillRect(0, 0, cw, ch);
-	// change the composite operation back to our main mode
-	// lighter creates bright highlight points as the fireworks and particles overlap each other
-	ctx.globalCompositeOperation = 'lighter';
-
-	// loop over each firework, draw it, update it
-	var i = fireworks.length;
-	while (i--) {
-		fireworks[i].draw();
-		fireworks[i].update(i);
-	}
-
-	// loop over each particle, draw it, update it
-	var i = particles.length;
-	while (i--) {
-		particles[i].draw();
-		particles[i].update(i);
-	}
-
-	// launch fireworks automatically to random coordinates, when the mouse isn't down
-	if (timerTick >= timerTotal) {
-		if (!mousedown) {
-			// start the firework at the bottom middle of the screen, then set the random target coordinates, the random y coordinates will be set within the range of the top half of the screen
-			fireworks.push(new Firework(cw / 2, ch, random(0, cw), random(0, ch / 2)));
-			timerTick = 0;
-		}
-	} else {
-		timerTick++;
-	}
-
-	// limit the rate at which fireworks get launched when mouse is down
-	if (limiterTick >= limiterTotal) {
-		if (mousedown) {
-			// start the firework at the bottom middle of the screen, then set the current mouse coordinates as the target
-			fireworks.push(new Firework(cw / 2, ch, mx, my));
-			limiterTick = 0;
-		}
-	} else {
-		limiterTick++;
-	}
-}
-
-window.onload = function () {
-	var merrywrap = document.getElementById("merrywrap");
-	var box = merrywrap.getElementsByClassName("giftbox")[0];
-	var step = 1;
-	var stepMinutes = [2000, 2000, 1000, 1000];
-	function init() {
-		box.addEventListener("click", openBox, false);
-	}
-	function stepClass(step) {
-		merrywrap.className = 'merrywrap';
-		merrywrap.className = 'merrywrap step-' + step;
-	}
-	function openBox() {
-		if (step === 1) {
-			box.removeEventListener("click", openBox, false);
-		}
-		stepClass(step);
-		if (step === 3) {
-		}
-		if (step === 4) {
-			reveal();
-			return;
-		}
-		setTimeout(openBox, stepMinutes[step - 1]);
-		step++;
-	}
-
-	init();
-
-};
-
-function reveal() {
-	document.querySelector('.merrywrap').style.backgroundColor = 'transparent';
-
-	loop();
-
-	var w, h;
-	if (window.innerWidth >= 1000) {
-		w = 295;h = 185;
-	} else
-	{
-		w = 255;h = 155;
-	}
-
-	var ifrm = document.createElement("iframe");
-	ifrm.setAttribute("src", "https://www.youtube.com/embed/_z-1fTlSDF0?controls=0&loop=1&autoplay=1");
-	//ifrm.style.width = `${w}px`;
-	//ifrm.style.height = `${h}px`;
-	ifrm.style.border = 'none';
-	document.querySelector('#video').appendChild(ifrm);
-}
-    </script>
+    <script src="assets/js/main.js"></script>
+	</body>
+</html>
