@@ -93,6 +93,7 @@ a {
     background: rgba(0, 0, 0, 0.4); }
 
 .navbar-brand {
+  margin-right: 13% !important;
   text-transform: uppercase;
   letter-spacing: .3em; }
 
