@@ -979,176 +979,113 @@ html {
   
 
 
-.container{
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
   position: relative;
-  margin: 120px auto 0 auto;
-  width: 320px;
 }
 
-
-.ico{
-  display: block;
-  width: 320px;
-  height: 320px;
-}
-.open .ico{
-  animation: open 4s;
-  transform: scale(10);
-}
-.ico .title{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -95px;
-  margin-top: -73px;
-  z-index: 4;
-  font-size: 50px;
-  font-family: 'Pacifico', cursive;
-  color: #fff;
-  cursor: pointer;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-}
-.open .ico .title{
-  opacity: 0;
-  transition: all 0.3s ease;
-  top:-100px;
-}
-.ico:before,
-.ico:after,
-.ico2:before,
-.ico2:after{
-  position: absolute;
-  top:0;
-  left:0;
-}
-.ico:before,
-.ico:after,
-.ico2:before,
-.ico2:after{
-  display: block;
-  font-size: 20em;
-  color: #ff4081;
-  content: "\f004";
-  font-family: FontAwesome;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.ico2:before,
-.ico2:after{
-  color: #e91e63;
-}
-.ico:before{
-  z-index: 3;
-}
-.ico:after{
-  animation: explode 4s infinite;
-}
-
-
-.ico2:before{
-  animation: explodeSmall 3s infinite;
-}
-.ico2:after{
-  animation: explodeSmall 2s infinite;
-}
-
-
-.endtext{
-  opacity:0;
-  position: absolute;
-  top:-100px;
-  width:100%;
-}
-.open .endtext{
-  top:0;
-  opacity: 1;
-  animation: show 5s;
-}
-.endtext .close{
-  position: absolute;
-  top: 0;
-  right: 0;
-  cursor: pointer;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-}
-.endtext h1,
-.endtext h2,
-.endtext h3{
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+body .container {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  padding: 60px 30px;
   text-align: center;
-  font-weight: normal;
+  background: white;
+  border-top: 80px solid rgba(154, 211, 222, 0.3);
+  border-bottom: 80px solid rgba(154, 211, 222, 0.3);
+  box-sizing: border-box;
+  align-self: center;
 }
-.endtext h1{
-  font-size: 50px;
+
+h1, h2 {
+  font-family: 'Srisakdi', cursive;
+  font-weight: 400;
 }
-.endtext h2{
-  font-size: 30px;
+
+p, button {
+  font-family: 'Montserrat', sans-serif;
 }
-.endtext h3{
-  font-size: 20px;
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #666666;
+  margin: 0 0 40px 0;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  color: #666666;
+  margin: 0 0 30px 0;
+}
+
+p {
+  color: #666666;
+}
+
+button {
+  background: #9AD3DE;
+  border: 0;
+  border-radius: 4px;
+  padding: 18px 30px;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  background: #c0e4eb;
+}
+
+.popup {
+  background: rgba(100, 100, 100, 0.5);
+  position: fixed;
+  display: none;
+  z-index: 5000;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.popup > div {
+  max-width: 600px;
+  width: 70%;
+  position: fixed;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background: #FFFFFF;
+  padding: 30px;
+  z-index: 5001;
+  text-align: center;
+  border: 5px solid #9AD3DE;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
 }
 
 
-@keyframes explode {
-    from {
-      transform: scale(1);
-      opacity: 1;
-    }
-    to {
-      transform: scale(1.6);
-      opacity: 0;
-    }
-}
-@keyframes explodeSmall {
-    from {
-      transform: scale(1);
-      opacity: 1;
-    }
-    to {
-      transform: scale(1.2);
-      opacity: 0;
-    }
-}
-
-
-@keyframes open {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(10);
-    }
-}
-
-@keyframes show {
-    from {
-      opacity: 0;
-      top: -100px;
-    }
-    to {
-      opacity: 1;
-      top:0;
-    }
-}
-
+  
 </style>
 </head>
 <body>
 
-<div >
-  <div class="container">
-    <span class="ico">
-      <span class="ico2"></span>
-      <span class="title">Click Me</span>
-    </span>
-    <div class="endtext">
-      <span class="close" title="Restart"><i class="fa fa-times"></i></span>  
-      <h1>I love you baby</h1>
-      <h2>Be my valentine?</h2>
-      <h3>~Skippy</h3>
-    </div>
-  </div>
+<div class="container">
+	<h1>Responsive Popup</h1>
+	<button data-js="open">Click me</button>
+</div>
+
+<div class="popup">
+	<h2>This is my popup</h2>
+
+	<button name="close">Close</button>
 </div>
 
 
@@ -1259,15 +1196,38 @@ html {
 
 </body>
 <script>
-$(document).ready(function(){
-  $('.title').click(function(){
-    $('.container').addClass('open');
-  });
-  
-  
-  $('.close').click(function(){
-    $('.container').removeClass('open');
-  });
+function popupOpenClose(popup) {
+	
+	/* Add div inside popup for layout if one doesn't exist */
+	if ($(".wrapper").length == 0){
+		$(popup).wrapInner("<div class='wrapper'></div>");
+	}
+	
+	/* Open popup */
+	$(popup).show();
+
+	/* Close popup if user clicks on background */
+	$(popup).click(function(e) {
+		if ( e.target == this ) {
+			if ($(popup).is(':visible')) {
+				$(popup).hide();
+			}
+		}
+	});
+
+	/* Close popup and remove errors if user clicks on cancel or close buttons */
+	$(popup).find("button[name=close]").on("click", function() {
+		if ($(".formElementError").is(':visible')) {
+			$(".formElementError").remove();
+		}
+		$(popup).hide();
+	});
+}
+
+$(document).ready(function () {
+	$("[data-js=open]").on("click", function() {
+		popupOpenClose($(".popup"));
+	});
 });
 </script>
   
