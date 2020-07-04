@@ -3513,7 +3513,7 @@ h6 {
 .slider_text_inner .slider_text:before {
   content: "";
   width: 360px;
-  height: 530px;
+  height: 450px;
   background: rgba(167, 203, 0, 0.8);
   position: absolute;
   left: -95px;
