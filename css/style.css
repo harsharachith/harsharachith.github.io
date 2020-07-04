@@ -225,8 +225,8 @@ button:focus {
   .header_area .navbar .nav .nav-item.submenu ul {
     position: absolute;
     top: 120%;
-    left: 0px;
-    min-width: 200px;
+    left: -115px;
+    min-width: 300px;
     text-align: left;
     opacity: 0;
     -webkit-transition: all 300ms ease-in;
