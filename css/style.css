@@ -813,7 +813,7 @@ button:focus {
 }
 
 .categories_post:hover .categories_details {
-  background: rgba(167, 203, 0, 0.85);
+  background: #17a2b8c7;
 }
 
 /*============ blog_left_sidebar css ==============*/
