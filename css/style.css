@@ -461,7 +461,8 @@ button:focus {
 .banner_area {
   position: relative;
   z-index: 1;
-  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+  /* background: url(../img/banner/banner.jpg) no-repeat scroll center center; */
+  background: url(../img/slider/slider-1.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 
