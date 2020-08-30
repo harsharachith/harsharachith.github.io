@@ -3515,10 +3515,10 @@ h6 {
   content: "";
   width: 360px;
   height: 449px;
-  background:#17a2b8c7;
+  background: #17a2b8c7;
   position: absolute;
-  left: -95px;
-  top: -70px;
+  left: -47px;
+  top: -33px;
   z-index: -1;
 }
 
