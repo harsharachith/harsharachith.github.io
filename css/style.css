@@ -490,7 +490,7 @@ button:focus {
   background: #17a2b8;
   position: absolute;
   left: -50px;
-  top: -30px;
+  top: -20px;
   z-index: -1;
 }
 
