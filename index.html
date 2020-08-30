@@ -483,7 +483,69 @@
 		</div>
         <!--================End Team Area =================-->
         
-        <!--================Project Details Area =================-->
+		<!--================Project Details Area =================-->
+		<section class="project_know_area p_120">
+			<div class="container">
+				<div class="logo-grid">
+					<div class="column">
+					  <div class="grid-logo-wrapper">
+						<div class="grid-logo active">
+						<img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/stumptown.png"/>
+					  </div>
+						<div class="grid-logo">
+						<img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/spotify.png" />
+					  </div>
+						<div class="grid-logo">
+						<img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/tumblr.png" />
+					  </div>
+					  </div>
+					</div>
+					<div class="column">
+					  <div class="grid-logo-wrapper">
+						<div class="grid-logo active">
+						<img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/xbox.png" />
+					  </div>
+						<div class="grid-logo">
+						<img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/google.png" />
+					  </div>
+						<div class="grid-logo">
+						<img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/gopro.png" />
+					  </div>
+							  <div class="grid-logo">
+						<img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/gopro.png" />
+					  </div>
+					  </div>
+					</div>
+					<div class="column">
+					  <div class="grid-logo-wrapper">
+						<div class="grid-logo active">
+						  <img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/samsung.png" />
+						</div>
+						<div class="grid-logo">
+						  <img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/youtube.png" />
+						</div>
+						<div class="grid-logo">
+						  <img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/netflix.png" />
+						</div>
+					  </div>
+					</div>
+					<div class="column">
+					  <div class="grid-logo-wrapper">
+						<div class="grid-logo active">
+						  <img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/samsung.png" />
+						</div>
+						<div class="grid-logo">
+						  <img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/youtube.png" />
+						</div>
+						<div class="grid-logo">
+						  <img src="https://res.cloudinary.com/instrument-com/image/upload/c_scale,f_auto,w_400,dpr_2.0/client-logos/netflix.png" />
+						</div>
+					  </div>
+					</div>
+				  </div>
+			</div>
+		</section>
+
         <section class="project_know_area p_120">
         	<div class="container">
         		<div class="project_know_inner text-center">
@@ -653,6 +715,23 @@
         <script src="js/mail-script.js"></script>
         <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
         <script src="vendors/swiper/js/swiper.min.js"></script>
-        <script src="js/theme.js"></script>
+		<script src="js/theme.js"></script>
+		<script type="javascript">
+			var logotimeline = new TimelineMax({repeat:-1});
+logotimeline.staggerTo(".logo-grid .column", 2, {onComplete:tweenComplete, onCompleteParams:["{self}"]}, 0.1);
+
+function tweenComplete(tween) {
+  var column = tween.target;
+  var activeItem = $(column).find('.active');
+  
+  var nextActiveItem = activeItem.next();
+  if (typeof nextActiveItem.html() === 'undefined'){
+    nextActiveItem = $(column).find('.grid-logo:first');
+  }
+
+  activeItem.removeClass('active'); 
+  nextActiveItem.addClass('active');
+}
+		</script>
     </body>
 </html>

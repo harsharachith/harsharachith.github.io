@@ -4066,6 +4066,34 @@ h6 {
   color: #17a2b8;
 }
 
+
+
+body .logo-grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px;
+}
+body .logo-grid .column img {
+  width: 100%;
+}
+body .logo-grid .column .grid-logo-wrapper {
+  position: relative;
+}
+body .logo-grid .column .grid-logo-wrapper .grid-logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  transform: translateY(-30px);
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+body .logo-grid .column .grid-logo-wrapper .grid-logo.active {
+  transform: translateY(0px);
+  visibility: visible;
+  opacity: 1;
+}
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
