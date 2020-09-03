@@ -3850,7 +3850,7 @@ h6 {
 
 .team_item:before {
   content: "";
-  background: url(../img/team/team-overlay.png) no-repeat;
+ /* background: url(../img/team/team-overlay.png) no-repeat; */
   background-size: cover;
   position: absolute;
   top: 0px;
