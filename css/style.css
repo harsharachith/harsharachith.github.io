@@ -4071,7 +4071,7 @@ h6 {
 .logogrid {
   padding: 16px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(152px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-auto-rows: 74px;
   grid-gap: 2rem;
 }
@@ -4088,17 +4088,17 @@ h6 {
      object-fit: cover;
      max-width: 128px;
      max-height: 86px;
-  -webkit-filter: grayscale(100%) contrast(25%);
-          filter: grayscale(100%) contrast(25%);
+  /* -webkit-filter: grayscale(100%) contrast(25%);
+          filter: grayscale(100%) contrast(25%); */
   -webkit-transition: -webkit-filter .3s ease;
   transition: -webkit-filter .3s ease;
   transition: filter .3s ease;
   transition: filter .3s ease, -webkit-filter .3s ease;
 }
-.logogrid__img:hover {
+/* .logogrid__img:hover {
   -webkit-filter: grayscale(0) contrast(100%);
           filter: grayscale(0) contrast(100%);
-}
+} */
 
 /* body {
   display: -webkit-box;
