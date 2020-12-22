@@ -4155,7 +4155,7 @@ h6 {
 }
 
 #our-services .desc .text {
-  color: #BABABA;
+  color: #232331;
 }
 
 /* OUR SERVICES RIGHT SIDE */
@@ -4346,4 +4346,24 @@ h6 {
   left: 0;
   transition-delay: 0.5s;
   opacity: 1;
+}
+
+
+.price_card {
+  width: 250px;
+  background: #2C2E3B;
+  display: inline-table;
+  top: 0;
+  border-radius: 12px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 2px #8dcafd, 0 0 10px #82d8f9, 0 0 20px #8fd1f1, 0 0 30px #ffffff;
+}
+  to {
+    box-shadow: 0 0 10px #8dcafd, 0 0 20px #5EC9FE, 0 0 30px #7dcdf5, 0 0 40px #ffffff;
+  }
 }
