@@ -232,6 +232,11 @@
 	.h_blog_text {
 		padding: 40px 15px;
 	}
-	
-	
+	.swiper-container img{
+		width: auto !important;
+
+	}
+	.card {
+		left: 50% !important;
+	}
 }
