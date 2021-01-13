@@ -239,4 +239,18 @@
 	.card {
 		left: 50% !important;
 	}
+	#our-services .services .column .service {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100% !important;
+		height: 150px;
+		background: #FFFFFF;
+		transition: all 0.1s ease;
+		margin-bottom: 15px;
+	  }
+
+	.column {
+		width: 100%;
+	}
 }
